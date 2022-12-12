@@ -160,7 +160,7 @@ class Target:
     def __init__(self):
         """ класс Target """
         self.alive = True
-        self.screen = pygame.Surface
+        self.screen = screen
         self.x = rnd(0, WIDTH - 20)
         self.y = rnd(0, 300)
         self.r = rnd(20, 40)
@@ -249,7 +249,7 @@ class Tank:
     def __init__(self):
         """ класс Tank """
         self.alive = True
-        self.screen = pygame.Surface
+        self.screen = screen
         self.r = 10
         self.x = gun.x1
         self.y = gun.y1
